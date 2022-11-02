@@ -1,3 +1,5 @@
+Consulta principal
+
 Select
     (Convert (Varchar, Day(r.CheckOut)) + '/' + Convert (Varchar, Month(r.CheckOut)) + '/' + Convert (Varchar, Year(r.CheckOut))) as DataCheckOut,
 	Count(r.Id) as QuantidadeCheckOut, 
