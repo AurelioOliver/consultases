@@ -27,3 +27,5 @@ select * from uh where numero = '1101';
 select * from UhStatusGovernanca where id =( SELECT MAX(ID) FROM UhStatusGovernanca);
 
 select * from UhStatusGovernanca where uh = 3;
+
+select * from UhStatusGovernanca where uh = 7
